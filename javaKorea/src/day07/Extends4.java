@@ -48,7 +48,7 @@ class Human{
 	}
 	
 	public void personInfo() {
-		System.out.println("사람 정보- name : "+name+", age:"+age);
+		System.out.println("사람 정보- name : "+getName()+", age:"+getAge());
 	}
 	Human(){}
 }
@@ -84,7 +84,7 @@ class Member extends Human{
 	}
 	
 	public void memberInfo() {
-		System.out.println("회원 정보- name : "+name+", age:"+age+", memNo : "+MemNo);
+		System.out.println("회원 정보- name : "+getName()+", age:"+getAge()+", memNo : "+getMemNo());
 	}
 	
 	
